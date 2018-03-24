@@ -27,7 +27,7 @@ fi
  git clone https://github.com/programmerrush/hash1.git /usr/share/doc/dodo;
  echo "#!/bin/bash 
  python /usr/share/doc/dodo/dodo.py" '${1+"$@"}' > dodo;
- chmod +x crips;
+ chmod +x dodo;
  sudo cp dodo /usr/bin/;
  rm dodo;
 
